@@ -33,6 +33,7 @@ public class User {
     @Column(name="user_password",length = 10)
     private String password;
 
+
     private String gender;
     @Column(length = 1000)
     private String about;
