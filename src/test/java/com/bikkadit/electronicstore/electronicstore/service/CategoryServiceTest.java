@@ -96,14 +96,14 @@ public class CategoryServiceTest {
 
         Category category2 = Category.builder()
                 .title("samsung")
-                .description("It is have low price..")
+                .description("It is high price..")
                 .coverImage("sm.png")
                 .build();
 
         Category category3 = Category.builder()
                 .title("vivo")
-                .description("It is have low price..")
-                .coverImage("sm.png")
+                .description("It is mid range price..")
+                .coverImage("vivo.png")
                 .build();
 
         List<Category> categoryList= Arrays.asList(category,category1,category2,category3);
